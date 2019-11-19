@@ -33,8 +33,6 @@ microservices, manage traffic flow across microservices, enforce policies
 and aggregate telemetry data. Istio's control plane provides an abstraction
 layer over the underlying cluster management platform, such as Kubernetes.
 
-Istio is composed of these components:
-
 - **Envoy** - Sidecar proxies per microservice to handle ingress/egress traffic
    between services in the cluster and from a service to external
    services. The proxies form a _secure microservice mesh_ providing a rich
